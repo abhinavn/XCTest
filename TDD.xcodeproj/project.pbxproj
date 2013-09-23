@@ -17,12 +17,12 @@
 		3107C0AA17F0D149004751A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3107C08F17F0D148004751A6 /* Foundation.framework */; };
 		3107C0AB17F0D149004751A6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3107C09317F0D148004751A6 /* UIKit.framework */; };
 		3107C0B317F0D149004751A6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3107C0B117F0D149004751A6 /* InfoPlist.strings */; };
-		3107C0C017F0D1D3004751A6 /* CounterViewControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3107C0BF17F0D1D3004751A6 /* CounterViewControllerTest.m */; };
 		3107C0C517F0D302004751A6 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3107C0C417F0D302004751A6 /* SenTestingKit.framework */; };
 		3107C0C717F0D307004751A6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3107C0C617F0D307004751A6 /* XCTest.framework */; };
 		3107C0CB17F0D37D004751A6 /* CounterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3107C0C917F0D37D004751A6 /* CounterViewController.m */; };
 		3107C0CC17F0D37D004751A6 /* CounterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3107C0CA17F0D37D004751A6 /* CounterView.xib */; };
 		3107C0D017F0D776004751A6 /* libPods-OCHamcrest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3107C0CF17F0D776004751A6 /* libPods-OCHamcrest.a */; };
+		3107C0D317F0E6D4004751A6 /* CounterViewControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3107C0D117F0E6CF004751A6 /* CounterViewControllerTest.m */; };
 		47FB46F91AC643A081432D04 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB0AB5DFED7447F09AA57357 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -52,7 +52,6 @@
 		3107C0A717F0D149004751A6 /* TDDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3107C0B017F0D149004751A6 /* TDDTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TDDTests-Info.plist"; sourceTree = "<group>"; };
 		3107C0B217F0D149004751A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		3107C0BF17F0D1D3004751A6 /* CounterViewControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CounterViewControllerTest.m; path = ../TDD/CounterViewControllerTest.m; sourceTree = "<group>"; };
 		3107C0C417F0D302004751A6 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		3107C0C617F0D307004751A6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3107C0C817F0D37D004751A6 /* CounterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CounterViewController.h; sourceTree = "<group>"; };
@@ -60,6 +59,7 @@
 		3107C0CA17F0D37D004751A6 /* CounterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CounterView.xib; sourceTree = "<group>"; };
 		3107C0CD17F0D695004751A6 /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = libPods.a; path = "Pods/build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
 		3107C0CF17F0D776004751A6 /* libPods-OCHamcrest.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "libPods-OCHamcrest.a"; path = "Pods/build/Debug-iphoneos/libPods-OCHamcrest.a"; sourceTree = "<group>"; };
+		3107C0D117F0E6CF004751A6 /* CounterViewControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CounterViewControllerTest.m; path = TDDTests/CounterViewControllerTest.m; sourceTree = SOURCE_ROOT; };
 		FB0AB5DFED7447F09AA57357 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -153,7 +153,7 @@
 		3107C0AE17F0D149004751A6 /* TDDTests */ = {
 			isa = PBXGroup;
 			children = (
-				3107C0BF17F0D1D3004751A6 /* CounterViewControllerTest.m */,
+				3107C0D117F0E6CF004751A6 /* CounterViewControllerTest.m */,
 				3107C0AF17F0D149004751A6 /* Supporting Files */,
 			);
 			path = TDDTests;
@@ -309,7 +309,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3107C0C017F0D1D3004751A6 /* CounterViewControllerTest.m in Sources */,
+				3107C0D317F0E6D4004751A6 /* CounterViewControllerTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
