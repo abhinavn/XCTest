@@ -57,8 +57,8 @@
 		3107C0C817F0D37D004751A6 /* CounterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CounterViewController.h; sourceTree = "<group>"; };
 		3107C0C917F0D37D004751A6 /* CounterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CounterViewController.m; sourceTree = "<group>"; };
 		3107C0CA17F0D37D004751A6 /* CounterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CounterView.xib; sourceTree = "<group>"; };
-		3107C0CD17F0D695004751A6 /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = libPods.a; path = "Pods/build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
-		3107C0CF17F0D776004751A6 /* libPods-OCHamcrest.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "libPods-OCHamcrest.a"; path = "Pods/build/Debug-iphoneos/libPods-OCHamcrest.a"; sourceTree = "<group>"; };
+		3107C0CD17F0D695004751A6 /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
+		3107C0CF17F0D776004751A6 /* libPods-OCHamcrest.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-OCHamcrest.a"; path = "Pods/build/Debug-iphoneos/libPods-OCHamcrest.a"; sourceTree = "<group>"; };
 		3107C0D117F0E6CF004751A6 /* CounterViewControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CounterViewControllerTest.m; path = TDDTests/CounterViewControllerTest.m; sourceTree = SOURCE_ROOT; };
 		FB0AB5DFED7447F09AA57357 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -421,6 +421,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
@@ -439,6 +440,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",

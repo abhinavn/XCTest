@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="AllTestUnits" tests="10" failures="0" errors="0" time="0.052260">
+    <testsuite tests="10" failures="0" errors="0" time="0.052260" timestamp="2013-10-26T09:55:10GMT-07:00" name="Toplevel Test Suite">
+        <testcase classname="CounterViewControllerTest" name="testCountLabelBeConnected" time="0.009411"></testcase>
+        <testcase classname="CounterViewControllerTest" name="testDecrementCountNTimesShouldDecreaseTheNumberByNTimes" time="0.001658"></testcase>
+        <testcase classname="CounterViewControllerTest" name="testDecrementCountShouldDecreaseOneToCountLabel" time="0.001156"></testcase>
+        <testcase classname="CounterViewControllerTest" name="testIncrementCountNTimesShouldAddNToCountLabel" time="0.001275"></testcase>
+        <testcase classname="CounterViewControllerTest" name="testIncrementCountShouldAddOneToCountLabel" time="0.001035"></testcase>
+        <testcase classname="CounterViewControllerTest" name="testInitialLabelCountShouldBeZero" time="0.000994"></testcase>
+        <testcase classname="CounterViewControllerTest" name="testMinusButtonAction" time="0.001142"></testcase>
+        <testcase classname="CounterViewControllerTest" name="testMinusButtonShouldBeConnected" time="0.001314"></testcase>
+        <testcase classname="CounterViewControllerTest" name="testPlusButtonAction" time="0.027513"></testcase>
+        <testcase classname="CounterViewControllerTest" name="testPlusButtonShouldBeConnected" time="0.001035"></testcase>
+    </testsuite>
+</testsuites>

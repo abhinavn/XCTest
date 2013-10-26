@@ -1,0 +1,59 @@
+=== BUILD TARGET Pods-OCHamcrest OF PROJECT Pods WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+=== BUILD TARGET Pods OF PROJECT Pods WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+=== BUILD TARGET TDD OF PROJECT TDD WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+PhaseScriptExecution Check\ Pods\ Manifest.lock /Users/nallagun/Library/Developer/Xcode/DerivedData/TDD-cqmbmenzeffhifcbzondughqwgqd/Build/Intermediates/TDD.build/Debug-iphonesimulator/TDD.build/Script-D962F99562C9420F8798CFD6.sh
+    cd /Users/nallagun/Git/XCUnit
+    /bin/sh -c /Users/nallagun/Library/Developer/Xcode/DerivedData/TDD-cqmbmenzeffhifcbzondughqwgqd/Build/Intermediates/TDD.build/Debug-iphonesimulator/TDD.build/Script-D962F99562C9420F8798CFD6.sh
+
+PhaseScriptExecution Copy\ Pods\ Resources /Users/nallagun/Library/Developer/Xcode/DerivedData/TDD-cqmbmenzeffhifcbzondughqwgqd/Build/Intermediates/TDD.build/Debug-iphonesimulator/TDD.build/Script-FD7F3AD3947748D9BF274D30.sh
+    cd /Users/nallagun/Git/XCUnit
+    /bin/sh -c /Users/nallagun/Library/Developer/Xcode/DerivedData/TDD-cqmbmenzeffhifcbzondughqwgqd/Build/Intermediates/TDD.build/Debug-iphonesimulator/TDD.build/Script-FD7F3AD3947748D9BF274D30.sh
+building file list ... done
+
+sent 29 bytes  received 20 bytes  98.00 bytes/sec
+total size is 0  speedup is 0.00
+
+=== BUILD TARGET TDDTests OF PROJECT TDD WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Test Suite 'All tests' started at 2013-10-26 16:20:50 +0000
+Test Suite 'TDDTests.xctest' started at 2013-10-26 16:20:50 +0000
+Test Suite 'CounterViewControllerTest' started at 2013-10-26 16:20:50 +0000
+Test Case '-[CounterViewControllerTest testCountLabelBeConnected]' started.
+Test Case '-[CounterViewControllerTest testCountLabelBeConnected]' passed (0.031 seconds).
+Test Case '-[CounterViewControllerTest testDecrementCountNTimesShouldDecreaseTheNumberByNTimes]' started.
+Test Case '-[CounterViewControllerTest testDecrementCountNTimesShouldDecreaseTheNumberByNTimes]' passed (0.001 seconds).
+Test Case '-[CounterViewControllerTest testDecrementCountShouldDecreaseOneToCountLabel]' started.
+Test Case '-[CounterViewControllerTest testDecrementCountShouldDecreaseOneToCountLabel]' passed (0.001 seconds).
+Test Case '-[CounterViewControllerTest testIncrementCountNTimesShouldAddNToCountLabel]' started.
+Test Case '-[CounterViewControllerTest testIncrementCountNTimesShouldAddNToCountLabel]' passed (0.001 seconds).
+Test Case '-[CounterViewControllerTest testIncrementCountShouldAddOneToCountLabel]' started.
+Test Case '-[CounterViewControllerTest testIncrementCountShouldAddOneToCountLabel]' passed (0.001 seconds).
+Test Case '-[CounterViewControllerTest testInitialLabelCountShouldBeZero]' started.
+Test Case '-[CounterViewControllerTest testInitialLabelCountShouldBeZero]' passed (0.001 seconds).
+Test Case '-[CounterViewControllerTest testMinusButtonAction]' started.
+Test Case '-[CounterViewControllerTest testMinusButtonAction]' passed (0.001 seconds).
+Test Case '-[CounterViewControllerTest testMinusButtonShouldBeConnected]' started.
+Test Case '-[CounterViewControllerTest testMinusButtonShouldBeConnected]' passed (0.001 seconds).
+Test Case '-[CounterViewControllerTest testPlusButtonAction]' started.
+Test Case '-[CounterViewControllerTest testPlusButtonAction]' passed (0.001 seconds).
+Test Case '-[CounterViewControllerTest testPlusButtonShouldBeConnected]' started.
+Test Case '-[CounterViewControllerTest testPlusButtonShouldBeConnected]' passed (0.001 seconds).
+Test Suite 'CounterViewControllerTest' finished at 2013-10-26 16:20:50 +0000.
+Executed 10 tests, with 0 failures (0 unexpected) in 0.038 (0.040) seconds
+Test Suite 'TDDTests.xctest' finished at 2013-10-26 16:20:50 +0000.
+Executed 10 tests, with 0 failures (0 unexpected) in 0.038 (0.040) seconds
+Test Suite 'All tests' finished at 2013-10-26 16:20:50 +0000.
+Executed 10 tests, with 0 failures (0 unexpected) in 0.038 (0.063) seconds
+** TEST SUCCEEDED **
+
