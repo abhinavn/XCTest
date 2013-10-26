@@ -7,7 +7,7 @@ This is sample XCTest framework integrated with Facebook's xctool. This a clone 
 Integration with Jenkins
 ====================
 
-Jenkins should be installed on a Mac. This is tested on OSX 10.9. 
+Jenkins should be installed on a Mac. This is tested on OSX 10.9and Xcode 5.0.1 
 
 1) You need to have homebrew, cocoapods, xctool , xcode commandline tools and iOS 7 simulator installed
 
