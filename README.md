@@ -1,7 +1,7 @@
 XCTest
 ======
 
-This is sample XCTest framework integrated with Facebook's xctool
+This is sample XCTest framework integrated with Facebook's xctool. This a clone of https://github.com/skoirala/XCUnit
 
 
 Integration with Jenkins
